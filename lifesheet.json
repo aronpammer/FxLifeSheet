@@ -23,40 +23,6 @@
       }
     ]
   },
-  "faron": {
-    "description": "Track the numbers Faron is tracking",
-    "schedule": "manual",
-    "questions": [
-      {
-        "question": "💪 Tracking progress with Faron, let's do this! 💪",
-        "type": "header"
-      },
-      {
-        "question": "All the numbers below must be measured by Faron, with shoes, and at the gym, in the afternoon around 4pm after using the bathroom. Subtract 1lbs from the total weight with shoes",
-        "type": "header"
-      },
-      {
-        "key": "faronGymWeightWithShoes",
-        "question": "Bodyweight with shoes, measured at gym (in lbs)",
-        "type": "number"
-      },
-      {
-        "key": "faronLeanBodyWeight",
-        "question": "Lean Body Weight (in lbs)",
-        "type": "number"
-      },
-      {
-        "key": "faronBodyFatPercent",
-        "question": "Calculated body fat percent. Enter without the % sign",
-        "type": "number"
-      },
-      {
-        "key": "faronBodyFatMass",
-        "question": "Calculated body fat mass (in lbs)",
-        "type": "number"
-      }
-    ]
-  },
   "awake": {
     "description": "Use this right when you woke up",
     "schedule": "daily",
